@@ -12,7 +12,7 @@ struct ListNode {
 ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
     ListNode* p1 = l1;
     ListNode* p2 = l2;
-    ListNode * ph = new ListNode(0);
+    ListNode* ph = new ListNode(0);
     ListNode* q = ph;
     while (p1 != NULL && p2 != NULL) {
         if (p1->val <= p2->val) {
