@@ -28,7 +28,7 @@ But the following `[1,2,2,null,3,null,3]` is not:
 
 ### 1. 迭代
 
-use stack
+use queue
 
 ### 2. 递归
 
