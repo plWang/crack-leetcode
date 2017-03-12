@@ -1,4 +1,5 @@
 #include <queue>
+#include <iostream>
 
 using namespace std;
 
@@ -33,8 +34,8 @@ void travel(TreeNode* root) {
         if (curr == NULL) cout << "null" << " ";
         else {
             cout << curr->val << " ";
-            if (curr->left) q.push(curr->left);
-            if (curr->right) q.push(curr->right);
+            q.push(curr->left);
+            q.push(curr->right);
         }
     }
     cout << endl;
