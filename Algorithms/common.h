@@ -11,12 +11,9 @@ struct TreeNode {
 
 TreeNode* createTreeByLevelOrder(vector<int> array, int n, int sub) {
     if (sub>=n) return NULL;
-    TreeNode* t = new TreeNode(0);
     if (array[sub] == -99999) return NULL;
 
-    t->val = array[sub];
-    t->left = NULL;
-    t->right = NULL;
+    TreeNode* t = new TreeNode(array[sub]);
 
     t->left = createTreeByLevelOrder(array, n, 2*sub+1);
     t->right = createTreeByLevelOrder(array, n, 2*sub+2);
