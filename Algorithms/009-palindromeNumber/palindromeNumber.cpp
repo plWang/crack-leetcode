@@ -12,7 +12,7 @@ bool isPalindrome(int x) {
     while (x != 0) {
         tmp = result * 10 + x%10;
         x = x/10;
-        if (result != tmp/10) 
+        if (result != tmp/10) //overflow
             return false;
         result = tmp;
     }

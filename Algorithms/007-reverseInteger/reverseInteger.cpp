@@ -12,7 +12,7 @@ public:
         while (x != 0){
             tmp = result * 10 + x%10;
             x = x / 10;
-            if (result != tmp /10) {
+            if (result != tmp /10) { // 判断是否溢出
                 result = 0;
                 break;
             }

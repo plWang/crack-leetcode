@@ -1,6 +1,8 @@
-Problem：
+## Problem：
 Determine whether an integer is a palindrome. Do this **without extra space**.
 
+
+## Solution
 需要注意的地方：
 1. 负数有没有回文数字？ 这里给出的答案是没有。
 2. 可不可以将数字转换为字符串？ No.注意题目要求是不使用额外存储空间。
