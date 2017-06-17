@@ -29,7 +29,11 @@ vector<vector<int> > permute(vector<int>& nums) {
 }
 
 int main() {
+<<<<<<< HEAD
     int array[] = {1, 2, 3,4,5,6,7,8,9,10};
+=======
+    int array[] = {1, 2, 3};
+>>>>>>> 089f9cca397bb9db58863adf9ca7e00bc470c755
     vector<int> nums(array, array+sizeof(array)/sizeof(int));
     vector<vector<int> > result = permute(nums);
 
