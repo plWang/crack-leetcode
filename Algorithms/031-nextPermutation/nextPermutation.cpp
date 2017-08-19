@@ -7,7 +7,7 @@ using namespace std;
 void nextPermutation(vector<int>& nums) {
     if (nums.size() == 1) return;
     int i = nums.size()-1;
-    while (i >= 0) {
+    while (i > 0) {
         if (nums[i] > nums[i-1]) break;
         i--;
     }
